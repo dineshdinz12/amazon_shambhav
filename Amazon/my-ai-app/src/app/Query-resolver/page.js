@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { get_answer } from '../api/query-resolver/route';
+import Markdown from 'markdown-to-jsx';
 import './page.css';
 
 export default function Home() {
@@ -74,7 +75,7 @@ export default function Home() {
             key={index}
             className={message.type === 'user' ? 'user-message' : 'bot-message'}
           >
-            {message.text}
+            <Markdown>{message.text}</Markdown>
           </div>
         ))}
         {loading && <p className="loading">Loading...</p>}

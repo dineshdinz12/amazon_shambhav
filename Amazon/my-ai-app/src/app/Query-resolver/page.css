@@ -57,11 +57,26 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   margin: 20px 0;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.message-wrapper {
+  display: flex;
+  width: 100%;
+}
+
+.user-wrapper {
+  justify-content: flex-start;
+}
+
+.bot-wrapper {
+  justify-content: flex-end;
 }
 
 .user-message, .bot-message {
-  max-width: 70%;
-  margin: 10px auto;
+  max-width: 80%;
+  margin: 10px 0;  /* Changed from margin: 10px auto */
   padding: 10px 15px;
   border-radius: 15px;
   font-size: 1rem;
@@ -70,12 +85,10 @@
 
 .user-message {
   background-color: #a1f1d6;
-  align-self: flex-start;
 }
 
 .bot-message {
   background-color: #f3e39d;
-  align-self: flex-end;
 }
 
 .loading {

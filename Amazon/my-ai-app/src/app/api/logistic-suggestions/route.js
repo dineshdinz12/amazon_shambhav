@@ -1,6 +1,6 @@
 // app/api/logistic-suggestions/route.js
 import { createGoogleGenerativeAI } from "@ai-sdk/google";
-import { convertToCoreMessages, streamText, generateText } from "ai";
+import { generateText } from "ai";
 import { createConnection } from "mysql2/promise";
 
 
