@@ -1,0 +1,481 @@
+Date,Region,Product,Season,Sales Volume,Temperature,Promotional Event,Holiday/Event,Competitor Discount,Consumer Index
+31-01-2023,Europe,Air Cooler,Spring,483,19,Yes,Black Friday,0,86
+31-01-2023,Europe,Heater,Summer,1072,14,Yes,Diwali,8,90
+31-01-2023,Europe,Furniture,Summer,1363,33,No,Diwali,8,71
+31-01-2023,Europe,Electronics,Spring,702,18,No,New Year,4,56
+31-01-2023,Europe,Sweater,Spring,181,13,No,Black Friday,4,60
+31-01-2023,North America,Air Cooler,Summer,832,20,No,None,3,55
+31-01-2023,North America,Heater,Summer,338,16,Yes,Christmas,9,55
+31-01-2023,North America,Furniture,Winter,608,5,No,Diwali,10,66
+31-01-2023,North America,Electronics,Autumn,371,10,No,Diwali,7,69
+31-01-2023,North America,Sweater,Autumn,798,30,No,New Year,1,93
+31-01-2023,Asia,Air Cooler,Winter,761,7,No,Diwali,15,62
+31-01-2023,Asia,Heater,Spring,746,27,Yes,Black Friday,14,93
+31-01-2023,Asia,Furniture,Spring,1505,29,No,Christmas,17,67
+31-01-2023,Asia,Electronics,Autumn,984,10,No,Diwali,4,55
+31-01-2023,Asia,Sweater,Summer,240,5,No,Black Friday,8,77
+31-01-2023,United States,Air Cooler,Summer,363,12,Yes,New Year,13,64
+31-01-2023,United States,Heater,Spring,331,30,No,Diwali,8,84
+31-01-2023,United States,Furniture,Spring,190,15,No,Black Friday,7,71
+31-01-2023,United States,Electronics,Summer,1092,33,No,Black Friday,7,77
+31-01-2023,United States,Sweater,Spring,733,6,Yes,Christmas,11,96
+28-02-2023,Europe,Air Cooler,Summer,718,6,Yes,Black Friday,17,86
+28-02-2023,Europe,Heater,Winter,962,19,No,Diwali,0,53
+28-02-2023,Europe,Furniture,Summer,1179,33,Yes,Christmas,20,68
+28-02-2023,Europe,Electronics,Summer,617,35,No,Christmas,19,68
+28-02-2023,Europe,Sweater,Winter,172,20,Yes,Christmas,12,76
+28-02-2023,North America,Air Cooler,Summer,801,17,Yes,None,4,82
+28-02-2023,North America,Heater,Summer,932,23,No,New Year,15,79
+28-02-2023,North America,Furniture,Winter,1615,12,Yes,Black Friday,12,75
+28-02-2023,North America,Electronics,Winter,164,19,Yes,New Year,3,59
+28-02-2023,North America,Sweater,Spring,392,8,No,Christmas,15,76
+28-02-2023,Asia,Air Cooler,Autumn,1449,33,No,New Year,8,91
+28-02-2023,Asia,Heater,Spring,1151,9,Yes,New Year,13,67
+28-02-2023,Asia,Furniture,Summer,154,15,No,Christmas,9,77
+28-02-2023,Asia,Electronics,Spring,495,12,No,New Year,10,99
+28-02-2023,Asia,Sweater,Winter,449,33,No,Black Friday,15,78
+28-02-2023,United States,Air Cooler,Spring,575,10,No,Christmas,0,93
+28-02-2023,United States,Heater,Winter,515,31,Yes,Christmas,8,77
+28-02-2023,United States,Furniture,Winter,1099,10,No,Christmas,2,72
+28-02-2023,United States,Electronics,Winter,129,8,No,Diwali,8,97
+28-02-2023,United States,Sweater,Spring,1395,17,Yes,New Year,1,59
+31-03-2023,Europe,Air Cooler,Winter,345,24,No,Black Friday,11,57
+31-03-2023,Europe,Heater,Autumn,758,10,No,None,18,90
+31-03-2023,Europe,Furniture,Summer,1252,29,No,Christmas,6,70
+31-03-2023,Europe,Electronics,Spring,1408,25,Yes,None,10,95
+31-03-2023,Europe,Sweater,Autumn,1569,22,Yes,None,9,69
+31-03-2023,North America,Air Cooler,Spring,439,6,Yes,None,6,57
+31-03-2023,North America,Heater,Autumn,145,29,No,New Year,9,91
+31-03-2023,North America,Furniture,Autumn,940,7,No,Diwali,0,54
+31-03-2023,North America,Electronics,Autumn,170,19,Yes,New Year,10,57
+31-03-2023,North America,Sweater,Spring,144,26,Yes,Diwali,14,85
+31-03-2023,Asia,Air Cooler,Summer,961,18,Yes,Christmas,1,87
+31-03-2023,Asia,Heater,Summer,986,15,Yes,None,3,86
+31-03-2023,Asia,Furniture,Winter,409,19,Yes,None,5,94
+31-03-2023,Asia,Electronics,Summer,1395,26,No,None,0,83
+31-03-2023,Asia,Sweater,Summer,1442,24,Yes,Black Friday,4,76
+31-03-2023,United States,Air Cooler,Spring,470,7,Yes,Christmas,11,74
+31-03-2023,United States,Heater,Autumn,213,7,Yes,Christmas,12,79
+31-03-2023,United States,Furniture,Summer,702,29,Yes,None,13,67
+31-03-2023,United States,Electronics,Autumn,1377,33,No,None,6,90
+31-03-2023,United States,Sweater,Spring,1045,16,No,None,2,59
+30-04-2023,Europe,Air Cooler,Summer,251,31,Yes,Black Friday,4,94
+30-04-2023,Europe,Heater,Summer,283,8,No,Christmas,17,98
+30-04-2023,Europe,Furniture,Winter,1356,19,Yes,Christmas,0,79
+30-04-2023,Europe,Electronics,Summer,0,13,Yes,Black Friday,3,69
+30-04-2023,Europe,Sweater,Summer,1094,15,No,None,9,75
+30-04-2023,North America,Air Cooler,Spring,378,12,No,New Year,20,72
+30-04-2023,North America,Heater,Autumn,1418,27,Yes,None,4,56
+30-04-2023,North America,Furniture,Winter,4,13,No,Diwali,9,61
+30-04-2023,North America,Electronics,Autumn,1511,10,No,Christmas,8,70
+30-04-2023,North America,Sweater,Autumn,332,11,No,Diwali,2,100
+30-04-2023,Asia,Air Cooler,Spring,201,18,No,Christmas,8,98
+30-04-2023,Asia,Heater,Summer,837,5,No,Black Friday,12,52
+30-04-2023,Asia,Furniture,Winter,820,30,Yes,New Year,3,96
+30-04-2023,Asia,Electronics,Winter,351,20,No,New Year,18,89
+30-04-2023,Asia,Sweater,Autumn,366,21,No,Christmas,9,76
+30-04-2023,United States,Air Cooler,Summer,1498,19,Yes,Black Friday,3,81
+30-04-2023,United States,Heater,Winter,672,12,No,Christmas,9,50
+30-04-2023,United States,Furniture,Summer,1313,12,Yes,None,10,96
+30-04-2023,United States,Electronics,Spring,1324,8,Yes,Christmas,5,59
+30-04-2023,United States,Sweater,Summer,678,9,Yes,None,20,88
+31-05-2023,Europe,Air Cooler,Spring,275,14,No,Christmas,14,61
+31-05-2023,Europe,Heater,Winter,746,11,Yes,Diwali,18,89
+31-05-2023,Europe,Furniture,Spring,300,29,Yes,New Year,1,65
+31-05-2023,Europe,Electronics,Autumn,742,27,No,New Year,3,55
+31-05-2023,Europe,Sweater,Spring,259,20,Yes,Black Friday,7,85
+31-05-2023,North America,Air Cooler,Autumn,1152,30,Yes,Diwali,7,65
+31-05-2023,North America,Heater,Winter,537,12,Yes,New Year,5,80
+31-05-2023,North America,Furniture,Spring,1461,18,Yes,Diwali,1,91
+31-05-2023,North America,Electronics,Autumn,465,22,No,New Year,18,87
+31-05-2023,North America,Sweater,Summer,532,22,No,New Year,12,76
+31-05-2023,Asia,Air Cooler,Summer,910,5,No,Diwali,14,61
+31-05-2023,Asia,Heater,Spring,1181,7,No,New Year,10,86
+31-05-2023,Asia,Furniture,Winter,430,14,Yes,Christmas,0,74
+31-05-2023,Asia,Electronics,Winter,1306,14,No,New Year,6,92
+31-05-2023,Asia,Sweater,Autumn,0,24,No,None,0,82
+31-05-2023,United States,Air Cooler,Summer,733,30,Yes,Black Friday,13,67
+31-05-2023,United States,Heater,Summer,749,24,No,Christmas,8,85
+31-05-2023,United States,Furniture,Autumn,413,12,Yes,Christmas,5,54
+31-05-2023,United States,Electronics,Autumn,832,27,Yes,Christmas,0,73
+31-05-2023,United States,Sweater,Summer,1381,6,Yes,Diwali,17,100
+30-06-2023,Europe,Air Cooler,Winter,813,28,No,New Year,11,56
+30-06-2023,Europe,Heater,Winter,553,20,No,Diwali,9,70
+30-06-2023,Europe,Furniture,Winter,542,5,No,Christmas,0,65
+30-06-2023,Europe,Electronics,Summer,943,7,No,Diwali,5,68
+30-06-2023,Europe,Sweater,Autumn,771,30,Yes,None,8,86
+30-06-2023,North America,Air Cooler,Summer,280,14,No,New Year,16,55
+30-06-2023,North America,Heater,Summer,1238,14,Yes,New Year,8,95
+30-06-2023,North America,Furniture,Summer,44,18,Yes,Diwali,8,74
+30-06-2023,North America,Electronics,Spring,446,10,No,Black Friday,14,67
+30-06-2023,North America,Sweater,Autumn,141,24,No,Black Friday,1,57
+30-06-2023,Asia,Air Cooler,Spring,567,10,Yes,Christmas,4,52
+30-06-2023,Asia,Heater,Winter,373,29,No,Black Friday,20,60
+30-06-2023,Asia,Furniture,Summer,886,28,Yes,None,16,72
+30-06-2023,Asia,Electronics,Autumn,1474,30,Yes,Diwali,11,71
+30-06-2023,Asia,Sweater,Winter,463,30,No,Black Friday,5,92
+30-06-2023,United States,Air Cooler,Spring,717,24,No,Christmas,10,99
+30-06-2023,United States,Heater,Autumn,67,7,Yes,Black Friday,0,92
+30-06-2023,United States,Furniture,Autumn,1126,13,Yes,Christmas,9,74
+30-06-2023,United States,Electronics,Autumn,263,33,No,None,15,64
+30-06-2023,United States,Sweater,Summer,142,28,No,None,6,70
+31-07-2023,Europe,Air Cooler,Autumn,1409,15,Yes,None,10,88
+31-07-2023,Europe,Heater,Autumn,1372,32,Yes,Christmas,0,60
+31-07-2023,Europe,Furniture,Autumn,461,17,Yes,Christmas,10,64
+31-07-2023,Europe,Electronics,Autumn,1080,12,Yes,None,13,86
+31-07-2023,Europe,Sweater,Autumn,308,20,Yes,Diwali,8,51
+31-07-2023,North America,Air Cooler,Spring,949,8,Yes,None,15,77
+31-07-2023,North America,Heater,Autumn,197,10,No,None,16,55
+31-07-2023,North America,Furniture,Summer,738,28,Yes,Black Friday,11,60
+31-07-2023,North America,Electronics,Spring,356,34,Yes,Black Friday,13,97
+31-07-2023,North America,Sweater,Autumn,439,7,Yes,New Year,3,60
+31-07-2023,Asia,Air Cooler,Summer,989,29,Yes,Black Friday,12,78
+31-07-2023,Asia,Heater,Winter,0,10,No,None,1,92
+31-07-2023,Asia,Furniture,Autumn,373,13,Yes,Black Friday,4,65
+31-07-2023,Asia,Electronics,Winter,285,32,Yes,Christmas,14,85
+31-07-2023,Asia,Sweater,Winter,242,7,Yes,Black Friday,6,67
+31-07-2023,United States,Air Cooler,Winter,398,34,No,None,3,97
+31-07-2023,United States,Heater,Summer,1261,17,No,Black Friday,13,86
+31-07-2023,United States,Furniture,Spring,962,27,No,Diwali,6,62
+31-07-2023,United States,Electronics,Winter,308,7,Yes,Diwali,0,76
+31-07-2023,United States,Sweater,Spring,212,34,Yes,Christmas,4,92
+31-08-2023,Europe,Air Cooler,Autumn,553,16,No,Black Friday,1,78
+31-08-2023,Europe,Heater,Spring,539,13,No,Christmas,11,59
+31-08-2023,Europe,Furniture,Spring,646,24,No,New Year,18,68
+31-08-2023,Europe,Electronics,Summer,460,33,No,New Year,1,64
+31-08-2023,Europe,Sweater,Autumn,183,7,Yes,Diwali,16,69
+31-08-2023,North America,Air Cooler,Winter,1536,17,Yes,New Year,9,89
+31-08-2023,North America,Heater,Autumn,797,17,No,None,17,79
+31-08-2023,North America,Furniture,Autumn,147,28,No,Black Friday,8,85
+31-08-2023,North America,Electronics,Summer,679,16,No,Black Friday,15,71
+31-08-2023,North America,Sweater,Summer,288,7,No,Christmas,14,57
+31-08-2023,Asia,Air Cooler,Autumn,86,33,No,None,10,90
+31-08-2023,Asia,Heater,Summer,709,17,Yes,Black Friday,17,62
+31-08-2023,Asia,Furniture,Autumn,829,13,Yes,None,16,60
+31-08-2023,Asia,Electronics,Spring,1511,13,Yes,Diwali,3,74
+31-08-2023,Asia,Sweater,Summer,1609,7,Yes,Black Friday,5,80
+31-08-2023,United States,Air Cooler,Winter,1156,35,Yes,Christmas,18,95
+31-08-2023,United States,Heater,Autumn,364,31,Yes,New Year,14,85
+31-08-2023,United States,Furniture,Summer,1256,18,Yes,None,19,91
+31-08-2023,United States,Electronics,Spring,822,22,Yes,Christmas,3,75
+31-08-2023,United States,Sweater,Winter,0,17,Yes,Diwali,14,57
+30-09-2023,Europe,Air Cooler,Summer,201,8,Yes,New Year,6,89
+30-09-2023,Europe,Heater,Summer,1147,17,Yes,None,15,60
+30-09-2023,Europe,Furniture,Autumn,1370,31,No,Black Friday,3,76
+30-09-2023,Europe,Electronics,Autumn,1323,33,Yes,None,8,78
+30-09-2023,Europe,Sweater,Autumn,1067,19,No,Black Friday,13,93
+30-09-2023,North America,Air Cooler,Winter,1545,10,Yes,None,11,75
+30-09-2023,North America,Heater,Autumn,1286,17,No,New Year,3,50
+30-09-2023,North America,Furniture,Autumn,1104,10,No,Christmas,0,53
+30-09-2023,North America,Electronics,Spring,1016,15,Yes,Diwali,10,94
+30-09-2023,North America,Sweater,Summer,1038,16,Yes,None,19,80
+30-09-2023,Asia,Air Cooler,Summer,1087,35,Yes,None,20,91
+30-09-2023,Asia,Heater,Spring,232,19,No,New Year,6,92
+30-09-2023,Asia,Furniture,Spring,291,19,Yes,Christmas,14,94
+30-09-2023,Asia,Electronics,Autumn,1190,22,Yes,Black Friday,16,94
+30-09-2023,Asia,Sweater,Winter,512,27,Yes,None,9,94
+30-09-2023,United States,Air Cooler,Autumn,1045,7,No,Diwali,12,98
+30-09-2023,United States,Heater,Autumn,152,5,Yes,Diwali,12,92
+30-09-2023,United States,Furniture,Autumn,252,29,Yes,Diwali,1,51
+30-09-2023,United States,Electronics,Winter,1614,19,No,Black Friday,20,88
+30-09-2023,United States,Sweater,Autumn,83,35,Yes,Christmas,10,99
+31-10-2023,Europe,Air Cooler,Winter,1163,16,Yes,None,0,65
+31-10-2023,Europe,Heater,Winter,978,8,No,None,20,54
+31-10-2023,Europe,Furniture,Autumn,913,20,No,Diwali,19,80
+31-10-2023,Europe,Electronics,Summer,651,23,Yes,Christmas,17,76
+31-10-2023,Europe,Sweater,Summer,880,23,Yes,Christmas,13,70
+31-10-2023,North America,Air Cooler,Autumn,1159,34,Yes,Diwali,7,81
+31-10-2023,North America,Heater,Spring,354,21,Yes,Diwali,11,93
+31-10-2023,North America,Furniture,Winter,1181,10,Yes,New Year,16,62
+31-10-2023,North America,Electronics,Winter,1460,25,Yes,Diwali,13,84
+31-10-2023,North America,Sweater,Spring,1321,5,Yes,None,1,72
+31-10-2023,Asia,Air Cooler,Summer,316,35,Yes,Christmas,5,58
+31-10-2023,Asia,Heater,Winter,183,32,No,Christmas,10,54
+31-10-2023,Asia,Furniture,Autumn,839,23,Yes,New Year,17,65
+31-10-2023,Asia,Electronics,Summer,1017,19,Yes,Black Friday,20,55
+31-10-2023,Asia,Sweater,Autumn,974,34,Yes,New Year,12,87
+31-10-2023,United States,Air Cooler,Summer,1478,13,No,None,8,82
+31-10-2023,United States,Heater,Autumn,211,34,No,New Year,10,72
+31-10-2023,United States,Furniture,Winter,999,13,Yes,Diwali,2,54
+31-10-2023,United States,Electronics,Spring,1370,11,Yes,New Year,16,81
+31-10-2023,United States,Sweater,Winter,1648,5,Yes,Christmas,2,61
+30-11-2023,Europe,Air Cooler,Winter,1341,30,Yes,Diwali,18,59
+30-11-2023,Europe,Heater,Spring,1558,12,No,Christmas,16,55
+30-11-2023,Europe,Furniture,Autumn,134,32,No,Diwali,4,65
+30-11-2023,Europe,Electronics,Winter,984,19,No,Diwali,19,54
+30-11-2023,Europe,Sweater,Autumn,1526,26,Yes,Christmas,10,82
+30-11-2023,North America,Air Cooler,Summer,952,31,Yes,New Year,13,67
+30-11-2023,North America,Heater,Spring,1214,19,No,Black Friday,1,88
+30-11-2023,North America,Furniture,Summer,934,25,No,New Year,8,53
+30-11-2023,North America,Electronics,Summer,1402,34,No,Black Friday,0,85
+30-11-2023,North America,Sweater,Spring,1119,22,Yes,None,5,61
+30-11-2023,Asia,Air Cooler,Spring,371,28,No,None,4,97
+30-11-2023,Asia,Heater,Summer,213,19,No,Diwali,5,80
+30-11-2023,Asia,Furniture,Spring,841,33,No,New Year,20,67
+30-11-2023,Asia,Electronics,Autumn,850,21,No,Black Friday,4,61
+30-11-2023,Asia,Sweater,Spring,519,23,No,None,20,99
+30-11-2023,United States,Air Cooler,Spring,71,11,Yes,Christmas,14,63
+30-11-2023,United States,Heater,Summer,1293,30,Yes,New Year,17,76
+30-11-2023,United States,Furniture,Spring,41,13,No,New Year,4,67
+30-11-2023,United States,Electronics,Summer,760,6,Yes,Black Friday,7,52
+30-11-2023,United States,Sweater,Summer,115,33,Yes,Christmas,18,57
+31-12-2023,Europe,Air Cooler,Summer,1015,18,Yes,Christmas,2,97
+31-12-2023,Europe,Heater,Summer,1267,35,Yes,None,17,97
+31-12-2023,Europe,Furniture,Winter,32,12,No,New Year,17,70
+31-12-2023,Europe,Electronics,Spring,162,35,Yes,Diwali,16,62
+31-12-2023,Europe,Sweater,Winter,315,26,No,New Year,11,54
+31-12-2023,North America,Air Cooler,Autumn,37,17,Yes,New Year,14,68
+31-12-2023,North America,Heater,Spring,778,9,Yes,None,4,69
+31-12-2023,North America,Furniture,Summer,1377,29,Yes,Black Friday,17,95
+31-12-2023,North America,Electronics,Winter,899,26,Yes,New Year,19,77
+31-12-2023,North America,Sweater,Spring,1048,31,No,None,12,65
+31-12-2023,Asia,Air Cooler,Autumn,998,16,No,Black Friday,7,76
+31-12-2023,Asia,Heater,Autumn,956,19,No,Black Friday,11,86
+31-12-2023,Asia,Furniture,Spring,1564,8,No,None,16,77
+31-12-2023,Asia,Electronics,Summer,1239,13,Yes,Christmas,1,50
+31-12-2023,Asia,Sweater,Winter,521,34,Yes,Black Friday,6,63
+31-12-2023,United States,Air Cooler,Winter,1555,6,No,None,20,83
+31-12-2023,United States,Heater,Summer,781,29,No,New Year,11,91
+31-12-2023,United States,Furniture,Summer,612,18,No,Black Friday,7,84
+31-12-2023,United States,Electronics,Summer,896,10,No,None,4,91
+31-12-2023,United States,Sweater,Spring,1373,25,No,New Year,5,95
+31-01-2024,Europe,Air Cooler,Winter,1362,18,No,Christmas,13,87
+31-01-2024,Europe,Heater,Spring,716,28,No,Black Friday,12,77
+31-01-2024,Europe,Furniture,Winter,1101,16,No,New Year,2,55
+31-01-2024,Europe,Electronics,Summer,472,30,No,Christmas,1,94
+31-01-2024,Europe,Sweater,Summer,548,9,No,None,10,96
+31-01-2024,North America,Air Cooler,Spring,551,30,No,None,20,70
+31-01-2024,North America,Heater,Winter,312,19,No,Christmas,1,95
+31-01-2024,North America,Furniture,Winter,1324,16,No,Diwali,15,57
+31-01-2024,North America,Electronics,Spring,470,26,No,None,1,86
+31-01-2024,North America,Sweater,Spring,244,7,No,Diwali,16,70
+31-01-2024,Asia,Air Cooler,Spring,1188,17,Yes,Black Friday,10,58
+31-01-2024,Asia,Heater,Spring,411,19,Yes,Black Friday,4,68
+31-01-2024,Asia,Furniture,Summer,1239,31,Yes,None,1,93
+31-01-2024,Asia,Electronics,Winter,1268,32,No,Black Friday,14,60
+31-01-2024,Asia,Sweater,Autumn,110,23,No,None,14,56
+31-01-2024,United States,Air Cooler,Autumn,1435,35,No,New Year,1,92
+31-01-2024,United States,Heater,Spring,287,21,No,Black Friday,5,97
+31-01-2024,United States,Furniture,Winter,390,29,No,Black Friday,13,91
+31-01-2024,United States,Electronics,Spring,615,23,No,Diwali,4,90
+31-01-2024,United States,Sweater,Autumn,1264,30,Yes,New Year,8,75
+29-02-2024,Europe,Air Cooler,Summer,1100,17,No,New Year,6,94
+29-02-2024,Europe,Heater,Spring,112,34,No,New Year,1,98
+29-02-2024,Europe,Furniture,Winter,1535,16,Yes,Diwali,7,90
+29-02-2024,Europe,Electronics,Autumn,819,7,No,Diwali,18,78
+29-02-2024,Europe,Sweater,Summer,1114,26,Yes,Black Friday,17,55
+29-02-2024,North America,Air Cooler,Spring,660,19,No,Christmas,1,90
+29-02-2024,North America,Heater,Spring,1294,31,No,None,2,95
+29-02-2024,North America,Furniture,Autumn,275,31,Yes,New Year,5,69
+29-02-2024,North America,Electronics,Summer,1383,14,No,Christmas,18,55
+29-02-2024,North America,Sweater,Spring,874,33,No,Black Friday,5,50
+29-02-2024,Asia,Air Cooler,Autumn,393,17,No,Christmas,9,71
+29-02-2024,Asia,Heater,Spring,711,13,No,None,0,78
+29-02-2024,Asia,Furniture,Summer,962,6,No,Christmas,15,92
+29-02-2024,Asia,Electronics,Summer,619,33,Yes,New Year,2,80
+29-02-2024,Asia,Sweater,Spring,953,18,No,Christmas,7,64
+29-02-2024,United States,Air Cooler,Summer,1085,28,No,Diwali,17,82
+29-02-2024,United States,Heater,Autumn,112,8,No,New Year,11,65
+29-02-2024,United States,Furniture,Autumn,366,17,No,Christmas,1,86
+29-02-2024,United States,Electronics,Autumn,695,31,No,None,10,76
+29-02-2024,United States,Sweater,Summer,1171,8,Yes,New Year,2,92
+31-03-2024,Europe,Air Cooler,Winter,141,24,No,Christmas,18,50
+31-03-2024,Europe,Heater,Winter,765,17,Yes,None,13,92
+31-03-2024,Europe,Furniture,Winter,1531,23,No,New Year,6,84
+31-03-2024,Europe,Electronics,Summer,562,23,No,Black Friday,19,70
+31-03-2024,Europe,Sweater,Winter,1193,27,No,Diwali,0,97
+31-03-2024,North America,Air Cooler,Summer,692,11,No,Black Friday,18,79
+31-03-2024,North America,Heater,Spring,71,18,Yes,None,8,84
+31-03-2024,North America,Furniture,Summer,1321,28,No,Christmas,11,92
+31-03-2024,North America,Electronics,Autumn,1479,29,Yes,None,19,62
+31-03-2024,North America,Sweater,Autumn,1476,16,Yes,Diwali,16,99
+31-03-2024,Asia,Air Cooler,Winter,247,16,Yes,None,14,97
+31-03-2024,Asia,Heater,Autumn,1491,31,No,None,6,64
+31-03-2024,Asia,Furniture,Winter,217,33,No,New Year,4,86
+31-03-2024,Asia,Electronics,Spring,557,33,Yes,New Year,1,89
+31-03-2024,Asia,Sweater,Spring,1083,10,No,Christmas,10,80
+31-03-2024,United States,Air Cooler,Spring,1425,20,Yes,Christmas,16,84
+31-03-2024,United States,Heater,Spring,833,18,No,New Year,18,69
+31-03-2024,United States,Furniture,Autumn,145,26,Yes,New Year,15,75
+31-03-2024,United States,Electronics,Autumn,1137,7,Yes,Diwali,11,80
+31-03-2024,United States,Sweater,Autumn,523,16,Yes,Christmas,12,67
+30-04-2024,Europe,Air Cooler,Autumn,1626,22,No,Diwali,7,100
+30-04-2024,Europe,Heater,Spring,263,31,No,None,14,80
+30-04-2024,Europe,Furniture,Winter,877,31,Yes,Diwali,2,75
+30-04-2024,Europe,Electronics,Winter,651,24,No,Diwali,17,85
+30-04-2024,Europe,Sweater,Spring,1546,20,Yes,None,9,77
+30-04-2024,North America,Air Cooler,Winter,699,9,No,Christmas,7,57
+30-04-2024,North America,Heater,Winter,664,28,No,Black Friday,17,81
+30-04-2024,North America,Furniture,Spring,174,32,No,New Year,15,65
+30-04-2024,North America,Electronics,Autumn,29,23,Yes,Diwali,7,82
+30-04-2024,North America,Sweater,Summer,123,35,No,Diwali,16,75
+30-04-2024,Asia,Air Cooler,Winter,1440,11,Yes,Christmas,16,93
+30-04-2024,Asia,Heater,Winter,0,8,Yes,Diwali,1,99
+30-04-2024,Asia,Furniture,Winter,1365,14,No,None,8,52
+30-04-2024,Asia,Electronics,Winter,1136,28,No,Christmas,4,89
+30-04-2024,Asia,Sweater,Winter,205,22,Yes,Christmas,17,68
+30-04-2024,United States,Air Cooler,Spring,958,5,No,New Year,14,89
+30-04-2024,United States,Heater,Autumn,1163,21,Yes,New Year,2,78
+30-04-2024,United States,Furniture,Autumn,662,19,Yes,Diwali,18,89
+30-04-2024,United States,Electronics,Spring,558,33,Yes,New Year,13,75
+30-04-2024,United States,Sweater,Summer,564,18,Yes,New Year,9,63
+31-05-2024,Europe,Air Cooler,Winter,1145,13,No,Diwali,4,76
+31-05-2024,Europe,Heater,Summer,956,22,No,None,5,80
+31-05-2024,Europe,Furniture,Summer,1231,19,Yes,Christmas,3,87
+31-05-2024,Europe,Electronics,Spring,1103,8,Yes,Diwali,9,62
+31-05-2024,Europe,Sweater,Winter,918,32,Yes,None,20,94
+31-05-2024,North America,Air Cooler,Autumn,188,15,No,None,3,96
+31-05-2024,North America,Heater,Autumn,544,15,No,Christmas,3,52
+31-05-2024,North America,Furniture,Spring,1364,14,No,None,9,67
+31-05-2024,North America,Electronics,Spring,1151,24,No,None,5,81
+31-05-2024,North America,Sweater,Spring,1415,32,No,Christmas,18,93
+31-05-2024,Asia,Air Cooler,Autumn,924,14,Yes,Christmas,20,89
+31-05-2024,Asia,Heater,Spring,1378,32,Yes,Diwali,3,81
+31-05-2024,Asia,Furniture,Summer,438,29,No,New Year,3,75
+31-05-2024,Asia,Electronics,Spring,678,5,No,Christmas,15,59
+31-05-2024,Asia,Sweater,Winter,891,27,Yes,Black Friday,2,68
+31-05-2024,United States,Air Cooler,Spring,121,32,No,Christmas,5,79
+31-05-2024,United States,Heater,Spring,724,24,Yes,New Year,7,85
+31-05-2024,United States,Furniture,Spring,934,6,No,None,15,91
+31-05-2024,United States,Electronics,Autumn,1624,10,Yes,Christmas,10,89
+31-05-2024,United States,Sweater,Autumn,321,33,No,None,12,74
+30-06-2024,Europe,Air Cooler,Autumn,1070,14,No,None,18,75
+30-06-2024,Europe,Heater,Spring,1053,14,No,None,1,97
+30-06-2024,Europe,Furniture,Winter,403,6,Yes,Christmas,15,94
+30-06-2024,Europe,Electronics,Autumn,356,9,No,Christmas,17,63
+30-06-2024,Europe,Sweater,Spring,1292,19,Yes,Christmas,13,87
+30-06-2024,North America,Air Cooler,Spring,750,25,Yes,Christmas,4,64
+30-06-2024,North America,Heater,Spring,1452,32,Yes,Diwali,17,97
+30-06-2024,North America,Furniture,Autumn,112,30,No,Christmas,7,76
+30-06-2024,North America,Electronics,Winter,744,35,Yes,Diwali,4,76
+30-06-2024,North America,Sweater,Spring,406,29,No,Diwali,4,91
+30-06-2024,Asia,Air Cooler,Spring,58,26,No,Diwali,15,78
+30-06-2024,Asia,Heater,Autumn,766,33,Yes,None,16,64
+30-06-2024,Asia,Furniture,Autumn,212,14,Yes,Christmas,14,88
+30-06-2024,Asia,Electronics,Spring,716,20,Yes,Diwali,8,66
+30-06-2024,Asia,Sweater,Spring,1111,35,No,New Year,6,53
+30-06-2024,United States,Air Cooler,Winter,1659,7,Yes,Black Friday,13,80
+30-06-2024,United States,Heater,Autumn,685,13,No,Diwali,1,82
+30-06-2024,United States,Furniture,Winter,1350,29,No,None,17,93
+30-06-2024,United States,Electronics,Autumn,1366,29,Yes,Diwali,5,82
+30-06-2024,United States,Sweater,Winter,170,30,No,Christmas,14,75
+31-07-2024,Europe,Air Cooler,Winter,106,5,Yes,New Year,14,98
+31-07-2024,Europe,Heater,Summer,1182,13,Yes,Diwali,7,98
+31-07-2024,Europe,Furniture,Winter,860,24,Yes,Diwali,9,88
+31-07-2024,Europe,Electronics,Spring,653,20,No,Christmas,15,52
+31-07-2024,Europe,Sweater,Autumn,1295,9,No,Christmas,11,70
+31-07-2024,North America,Air Cooler,Winter,1571,23,Yes,Diwali,12,80
+31-07-2024,North America,Heater,Summer,0,7,No,Black Friday,9,91
+31-07-2024,North America,Furniture,Summer,177,32,No,Christmas,17,98
+31-07-2024,North America,Electronics,Spring,873,6,Yes,Black Friday,1,55
+31-07-2024,North America,Sweater,Spring,191,21,No,None,17,72
+31-07-2024,Asia,Air Cooler,Autumn,1164,13,Yes,New Year,15,89
+31-07-2024,Asia,Heater,Summer,1238,23,Yes,Diwali,15,82
+31-07-2024,Asia,Furniture,Spring,495,23,Yes,None,1,71
+31-07-2024,Asia,Electronics,Winter,1284,19,Yes,Christmas,8,75
+31-07-2024,Asia,Sweater,Winter,149,12,Yes,Diwali,17,78
+31-07-2024,United States,Air Cooler,Spring,753,31,Yes,Black Friday,15,57
+31-07-2024,United States,Heater,Winter,1024,21,No,Black Friday,19,75
+31-07-2024,United States,Furniture,Summer,1193,26,Yes,None,20,92
+31-07-2024,United States,Electronics,Summer,906,27,Yes,None,10,59
+31-07-2024,United States,Sweater,Summer,21,16,No,None,17,72
+31-08-2024,Europe,Air Cooler,Winter,442,17,Yes,Diwali,15,55
+31-08-2024,Europe,Heater,Autumn,525,6,No,None,5,88
+31-08-2024,Europe,Furniture,Winter,840,7,No,Christmas,8,58
+31-08-2024,Europe,Electronics,Summer,961,28,Yes,Christmas,20,66
+31-08-2024,Europe,Sweater,Autumn,660,14,Yes,New Year,3,88
+31-08-2024,North America,Air Cooler,Spring,1037,10,Yes,Diwali,20,100
+31-08-2024,North America,Heater,Autumn,966,25,Yes,New Year,16,98
+31-08-2024,North America,Furniture,Spring,1283,16,Yes,Black Friday,16,81
+31-08-2024,North America,Electronics,Spring,975,5,Yes,None,4,56
+31-08-2024,North America,Sweater,Summer,611,12,No,New Year,13,72
+31-08-2024,Asia,Air Cooler,Winter,1480,18,Yes,Diwali,9,71
+31-08-2024,Asia,Heater,Winter,1519,7,Yes,None,4,71
+31-08-2024,Asia,Furniture,Summer,532,11,No,Diwali,9,69
+31-08-2024,Asia,Electronics,Summer,1074,22,No,New Year,4,90
+31-08-2024,Asia,Sweater,Spring,988,30,Yes,Black Friday,2,96
+31-08-2024,United States,Air Cooler,Summer,909,11,Yes,None,4,78
+31-08-2024,United States,Heater,Spring,326,30,No,None,19,88
+31-08-2024,United States,Furniture,Summer,974,13,No,Christmas,9,65
+31-08-2024,United States,Electronics,Autumn,198,34,No,New Year,3,80
+31-08-2024,United States,Sweater,Summer,994,14,Yes,Diwali,9,63
+30-09-2024,Europe,Air Cooler,Spring,1063,10,Yes,Black Friday,15,76
+30-09-2024,Europe,Heater,Autumn,1288,12,Yes,Diwali,9,63
+30-09-2024,Europe,Furniture,Spring,852,13,Yes,Christmas,0,52
+30-09-2024,Europe,Electronics,Winter,240,17,No,Black Friday,3,62
+30-09-2024,Europe,Sweater,Spring,1317,26,No,New Year,1,86
+30-09-2024,North America,Air Cooler,Summer,384,33,Yes,None,11,96
+30-09-2024,North America,Heater,Winter,1465,18,No,None,12,69
+30-09-2024,North America,Furniture,Summer,1397,22,No,New Year,17,51
+30-09-2024,North America,Electronics,Autumn,244,20,No,New Year,17,67
+30-09-2024,North America,Sweater,Winter,1146,21,Yes,Christmas,11,54
+30-09-2024,Asia,Air Cooler,Spring,426,9,Yes,None,7,53
+30-09-2024,Asia,Heater,Autumn,176,8,Yes,Black Friday,3,84
+30-09-2024,Asia,Furniture,Winter,1410,21,No,Christmas,14,96
+30-09-2024,Asia,Electronics,Summer,0,15,Yes,Diwali,7,85
+30-09-2024,Asia,Sweater,Winter,1154,34,Yes,None,13,62
+30-09-2024,United States,Air Cooler,Summer,1149,10,No,None,14,57
+30-09-2024,United States,Heater,Summer,1350,27,Yes,None,10,90
+30-09-2024,United States,Furniture,Winter,707,12,No,Diwali,20,75
+30-09-2024,United States,Electronics,Spring,1297,25,Yes,None,19,94
+30-09-2024,United States,Sweater,Autumn,1244,14,No,New Year,0,51
+31-10-2024,Europe,Air Cooler,Autumn,1060,26,No,Diwali,15,91
+31-10-2024,Europe,Heater,Spring,721,14,Yes,Christmas,9,56
+31-10-2024,Europe,Furniture,Spring,1159,12,No,Christmas,12,50
+31-10-2024,Europe,Electronics,Spring,883,31,No,Christmas,19,66
+31-10-2024,Europe,Sweater,Winter,663,16,No,Christmas,6,93
+31-10-2024,North America,Air Cooler,Summer,239,16,Yes,Diwali,1,82
+31-10-2024,North America,Heater,Summer,1008,14,No,New Year,9,91
+31-10-2024,North America,Furniture,Winter,1468,32,No,Diwali,15,94
+31-10-2024,North America,Electronics,Spring,524,15,Yes,Christmas,9,77
+31-10-2024,North America,Sweater,Summer,1054,19,No,New Year,19,55
+31-10-2024,Asia,Air Cooler,Summer,136,10,No,None,16,84
+31-10-2024,Asia,Heater,Summer,1095,10,Yes,Diwali,14,99
+31-10-2024,Asia,Furniture,Spring,234,34,No,Black Friday,10,77
+31-10-2024,Asia,Electronics,Autumn,381,35,No,Black Friday,0,79
+31-10-2024,Asia,Sweater,Autumn,901,22,No,Black Friday,9,51
+31-10-2024,United States,Air Cooler,Autumn,1133,16,Yes,Diwali,4,63
+31-10-2024,United States,Heater,Winter,1096,19,No,Christmas,19,95
+31-10-2024,United States,Furniture,Summer,1132,9,Yes,Diwali,16,53
+31-10-2024,United States,Electronics,Winter,948,21,No,Christmas,18,92
+31-10-2024,United States,Sweater,Spring,317,29,No,Diwali,19,58
+30-11-2024,Europe,Air Cooler,Autumn,816,21,Yes,Black Friday,17,56
+30-11-2024,Europe,Heater,Autumn,1415,34,No,New Year,6,81
+30-11-2024,Europe,Furniture,Summer,772,8,No,New Year,16,57
+30-11-2024,Europe,Electronics,Spring,732,10,No,Black Friday,0,77
+30-11-2024,Europe,Sweater,Autumn,1190,10,Yes,New Year,12,72
+30-11-2024,North America,Air Cooler,Winter,535,35,Yes,Christmas,13,61
+30-11-2024,North America,Heater,Winter,1335,16,Yes,None,3,61
+30-11-2024,North America,Furniture,Autumn,1194,32,No,None,12,74
+30-11-2024,North America,Electronics,Spring,499,35,No,Christmas,3,75
+30-11-2024,North America,Sweater,Autumn,493,34,No,Christmas,3,53
+30-11-2024,Asia,Air Cooler,Winter,1044,25,No,Diwali,8,78
+30-11-2024,Asia,Heater,Winter,1562,8,Yes,Black Friday,18,59
+30-11-2024,Asia,Furniture,Spring,996,20,Yes,New Year,3,50
+30-11-2024,Asia,Electronics,Spring,537,7,No,None,0,68
+30-11-2024,Asia,Sweater,Winter,0,13,No,Black Friday,1,85
+30-11-2024,United States,Air Cooler,Spring,1465,18,No,None,2,97
+30-11-2024,United States,Heater,Spring,866,35,No,Christmas,7,92
+30-11-2024,United States,Furniture,Summer,1078,5,Yes,New Year,4,59
+30-11-2024,United States,Electronics,Winter,1500,32,Yes,Christmas,11,83
+30-11-2024,United States,Sweater,Winter,473,19,Yes,New Year,5,66
+31-12-2024,Europe,Air Cooler,Autumn,140,14,No,New Year,4,71
+31-12-2024,Europe,Heater,Winter,446,35,No,Black Friday,6,79
+31-12-2024,Europe,Furniture,Spring,1494,8,Yes,Diwali,5,67
+31-12-2024,Europe,Electronics,Winter,1150,31,Yes,Black Friday,14,98
+31-12-2024,Europe,Sweater,Winter,472,16,No,Black Friday,16,96
+31-12-2024,North America,Air Cooler,Autumn,1283,25,No,Diwali,16,97
+31-12-2024,North America,Heater,Spring,1002,30,No,New Year,12,87
+31-12-2024,North America,Furniture,Summer,974,5,No,None,0,81
+31-12-2024,North America,Electronics,Autumn,1020,6,No,Christmas,9,60
+31-12-2024,North America,Sweater,Spring,1217,35,No,Black Friday,0,59
+31-12-2024,Asia,Air Cooler,Spring,1009,22,Yes,Black Friday,3,61
+31-12-2024,Asia,Heater,Summer,42,8,Yes,Black Friday,12,100
+31-12-2024,Asia,Furniture,Winter,1034,12,Yes,New Year,15,98
+31-12-2024,Asia,Electronics,Autumn,529,29,Yes,Diwali,8,62
+31-12-2024,Asia,Sweater,Autumn,522,32,No,None,13,56
+31-12-2024,United States,Air Cooler,Summer,747,11,Yes,Black Friday,12,85
+31-12-2024,United States,Heater,Summer,1246,21,Yes,Christmas,19,62
+31-12-2024,United States,Furniture,Autumn,583,22,No,Black Friday,2,55
+31-12-2024,United States,Electronics,Autumn,1029,14,No,New Year,11,91
+31-12-2024,United States,Sweater,Winter,686,29,Yes,Christmas,19,68

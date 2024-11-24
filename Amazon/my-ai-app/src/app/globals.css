@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --foreground-rgb:black; /* Dark Gray for text */
+  --background-start-rgb:white; /* Light background */
+   /* White background */
+   height: 100%;
+   width: 100%;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255; /* White for text in dark mode */
+    --background-start-rgb: 30, 30, 30; /* Dark gray for background */
+    --background-end-rgb: 0, 0, 0; /* Black for background */
+  }
+}
+
+body {
+  background: linear-gradient(
+    to bottom,
+    var(--background-start-rgb),
+    var(--background-start-rgb)
+  );
+  height: 100%;
+  width: 100%;
+  
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

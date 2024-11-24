@@ -1,0 +1,27 @@
+.home{
+    height: 100vh;
+    width: 100%;
+    /* background-color: red; */
+    background-image: url('https://d38b044pevnwc9.cloudfront.net/cutout-nuxt/enhancer/2.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+ul{
+    width: 70%;
+    height: 10%;
+    gap: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+}
+.Appname{
+    font-size: 15px;
+    width: 30%;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    display: flex;
+    justify-content: start;
+}
