@@ -2,6 +2,7 @@
 import { createGoogleGenerativeAI } from "@ai-sdk/google";
 import { generateText } from "ai";
 import { createConnection } from "mysql2/promise";
+import { connection } from "next/server";
 
 
 if (!process.env.NEXT_PUBLIC_GEMINI_API_KEY) {
@@ -12,14 +13,30 @@ const google = createGoogleGenerativeAI({
   apiKey: process.env.NEXT_PUBLIC_GEMINI_API_KEY,
 });
 
+// local connection
+// const getConnection = async () => {
+//   return await createConnection({
+//     host: "localhost",
+//     user: "root",
+//     database: "globalxport",
+//     password: process.env.MYSQL_PASSWORD,
+//   });
+// };
+
+// cloude connection 
 const getConnection = async () => {
   return await createConnection({
-    host: "localhost",
-    user: "root",
+    host: "mysql-2558516c-vibez2055-c999.b.aivencloud.com",
+    port: 25362, // Explicitly define the port
+    user: "avnadmin",
     database: "globalxport",
-    password: process.env.MYSQL_PASSWORD,
+    password: process.env,MYSQL_PASSWORD,
+    ssl: {
+      rejectUnauthorized: false, // Basic SSL validation
+    },
   });
 };
+
 
 const extractJson = (responseText) => {
   try {

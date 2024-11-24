@@ -1,9 +1,7 @@
-// app/logistics/page.js
 "use client";
 import { useState } from 'react';
-import { FaTruck, FaSpinner } from 'react-icons/fa';
-import { BiErrorCircle } from 'react-icons/bi';
-import { FaRegComments } from 'react-icons/fa';
+import { Shield, Search, AlertCircle, MessageSquare, Truck, Loader2, MapPin, Clock, DollarSign, BarChart3 } from 'lucide-react';
+
 export default function LogisticsPage() {
   const [query, setQuery] = useState('');
   const [results, setResults] = useState(null);
@@ -77,123 +75,152 @@ export default function LogisticsPage() {
     return `${numDays} ${numDays === 1 ? 'day' : 'days'}`;
   };
 
-  const renderErrorMessage = () => (
-    <div className="p-4 bg-red-50 border border-red-200 rounded-lg mb-4 flex items-center gap-2">
-      <BiErrorCircle className="text-red-500" size={20} />
-      <span className="text-red-700">{error}</span>
-    </div>
-  );
-
-  const renderPartnerCard = (partner) => (
-    <div
-      key={partner.id}
-      className="p-4 bg-white rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition-shadow"
-    >
-      <div className="flex justify-between items-start">
-        <div>
-          <h3 className="font-semibold text-lg">{partner.partner_name}</h3>
-          <p className="text-gray-600">{partner.region}</p>
-        </div>
-        <div className="text-right">
-          <div className="text-sm font-medium">
-            {formatCurrency(partner.base_rate_per_kg)}/kg
-          </div>
-          <div className="text-sm text-gray-500">
-            {formatDeliveryDays(partner.avg_delivery_time_days)} avg. delivery
-          </div>
-        </div>
-      </div>
-      <div className="mt-2 flex flex-wrap items-center gap-2">
-        <div
-          className={`text-sm px-2 py-1 rounded ${
-            partner.reliability_score >= 0.8
-              ? 'bg-green-50 text-green-700'
-              : partner.reliability_score >= 0.6
-              ? 'bg-yellow-50 text-yellow-700'
-              : 'bg-red-50 text-red-700'
-          }`}
-        >
-          {formatReliabilityScore(partner.reliability_score)} reliable
-        </div>
-        <div className="text-sm text-gray-500">{partner.service_type}</div>
-      </div>
-      <div className="mt-2 text-sm text-gray-500">
-        Contact: {partner.contact_person} ({partner.contact_email})
-      </div>
-      {/* Message Icon for Negotiation */}
-      <div className="mt-4 flex justify-end">
-        <button
-          onClick={() => handleNegotiate(partner.id)}
-          className="flex items-center gap-2 px-3 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors"
-        >
-          <FaRegComments />
-          <span>Negotiate</span>
-        </button>
-      </div>
-    </div>
-  );
+  const getReliabilityColor = (score) => {
+    if (score >= 0.8) return 'bg-emerald-400/20 text-emerald-400';
+    if (score >= 0.6) return 'bg-yellow-400/20 text-yellow-400';
+    return 'bg-red-400/20 text-red-400';
+  };
 
   return (
-    <div className="min-h-screen bg-gray-50 p-4">
-      <div className="max-w-4xl mx-auto">
-        {/* Header */}
-        <div className="flex items-center gap-3 mb-8">
-          <div className="p-3 bg-gray-700 rounded-full text-white">
-            <FaTruck size={24} />
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
+      {/* Animated Background */}
+      <div className="fixed inset-0 overflow-hidden pointer-events-none">
+        {[...Array(15)].map((_, i) => (
+          <div
+            key={i}
+            className="absolute h-64 w-64 rounded-full"
+            style={{
+              background: `radial-gradient(circle, rgba(79, 70, 229, 0.1) 0%, transparent 70%)`,
+              left: `${Math.random() * 100}%`,
+              top: `${Math.random() * 100}%`,
+              transform: `scale(${Math.random() * 2 + 1})`,
+              animation: `float ${Math.random() * 10 + 20}s linear infinite`,
+            }}
+          />
+        ))}
+      </div>
+
+      <div className="relative z-10 container mx-auto px-4 py-12">
+        {/* Header Section */}
+        <div className="text-center mb-12">
+          <div className="flex items-center justify-center gap-3 mb-4">
+            <Truck className="w-12 h-12 text-indigo-400" />
+            <h1 className="text-4xl font-bold text-white">Global Logistics Partner Finder</h1>
           </div>
-          <h1 className="text-2xl font-bold">Global Logistics Partner Finder</h1>
+          <p className="text-gray-400 max-w-2xl mx-auto">
+            Find and connect with reliable logistics partners worldwide
+          </p>
         </div>
 
-        {/* Quick Search Buttons */}
-        <div className="flex flex-wrap gap-2 mb-6">
-          {[
-            'Partners in Asia',
-            'European Shipping',
-            'Cost-effective Options',
-            'Express Delivery Partners',
-            'High Reliability Partners'
-          ].map((text) => (
-            <button
-              key={text}
-              onClick={() => handleQuickSearch(text)}
-              className="px-4 py-2 bg-gray-100 rounded-full hover:bg-gray-200 transition-colors"
-            >
-              {text}
-            </button>
-          ))}
-        </div>
-
-        {/* Search Form */}
-        <form id="search-form" onSubmit={handleSearch} className="mb-8">
-          <div className="flex gap-2">
-            <input
-              type="text"
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-              placeholder="Search for logistics partners..."
-              className="flex-1 px-4 py-2 rounded-lg border border-gray-200 focus:ring-2 focus:ring-blue-500 focus:outline-none"
-              required
-            />
-            <button
-              type="submit"
-              disabled={loading || !query.trim()}
-              className="px-6 py-2 bg-gray-700 text-white rounded-lg hover:bg-gray-800 disabled:bg-gray-400 transition-colors flex items-center gap-2"
-            >
-              {loading ? <FaSpinner className="animate-spin" /> : 'Search'}
-            </button>
+        {/* Quick Search Section */}
+        <div className="bg-gray-800/40 backdrop-blur-sm rounded-2xl shadow-xl border border-gray-700/50 p-6 mb-8">
+          <div className="flex items-center gap-3 mb-6">
+            <Search className="text-indigo-400" size={24} />
+            <h2 className="text-xl font-semibold text-white">Quick Search</h2>
           </div>
-        </form>
+          
+          <div className="flex flex-wrap gap-3 mb-6">
+            {[
+              'Partners in Asia',
+              'European Shipping',
+              'Cost-effective Options',
+              'Express Delivery Partners',
+              'High Reliability Partners'
+            ].map((text) => (
+              <button
+                key={text}
+                onClick={() => handleQuickSearch(text)}
+                className="px-4 py-2 bg-gray-700/50 text-gray-300 rounded-full hover:bg-indigo-500/20 hover:text-indigo-400 transition-colors"
+              >
+                {text}
+              </button>
+            ))}
+          </div>
+
+          <form id="search-form" onSubmit={handleSearch}>
+            <div className="flex gap-3">
+              <input
+                type="text"
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                placeholder="Search for logistics partners..."
+                className="flex-1 px-4 py-3 bg-gray-900/50 border border-gray-700 rounded-xl text-white placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                required
+              />
+              <button
+                type="submit"
+                disabled={loading || !query.trim()}
+                className="px-6 py-3 rounded-xl font-medium text-white bg-indigo-600 disabled:bg-gray-600 disabled:cursor-not-allowed hover:bg-indigo-500 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-900 flex items-center gap-2"
+              >
+                {loading ? <Loader2 className="animate-spin" /> : <Search size={20} />}
+                <span>Search</span>
+              </button>
+            </div>
+          </form>
+        </div>
 
         {/* Error Message */}
-        {error && renderErrorMessage()}
+        {error && (
+          <div className="mb-6 bg-red-900/20 border-l-4 border-red-500 p-4 rounded-r-xl flex items-center gap-3 text-red-300">
+            <AlertCircle className="text-red-400 flex-shrink-0" size={20} />
+            <p>{error}</p>
+          </div>
+        )}
 
-        {/* Results */}
+        {/* Results Grid */}
         {results && (
-          <div className="space-y-4">
+          <div className="grid gap-6 md:grid-cols-2">
             {results.length > 0 ? (
-              results.map(renderPartnerCard)
+              results.map((partner) => (
+                <div
+                  key={partner.id}
+                  className="bg-gray-800/40 backdrop-blur-sm rounded-xl border border-gray-700/50 p-6 hover:border-indigo-500/50 transition-colors"
+                >
+                  <div className="flex justify-between items-start mb-4">
+                    <div>
+                      <h3 className="text-xl font-semibold text-white mb-1">{partner.partner_name}</h3>
+                      <div className="flex items-center gap-2 text-gray-400">
+                        <MapPin size={16} />
+                        <span>{partner.region}</span>
+                      </div>
+                    </div>
+                    <div className="text-right">
+                      <div className="flex items-center gap-2 text-indigo-400 font-medium">
+                        <DollarSign size={16} />
+                        <span>{formatCurrency(partner.base_rate_per_kg)}/kg</span>
+                      </div>
+                      <div className="flex items-center gap-2 text-gray-400 mt-1">
+                        <Clock size={16} />
+                        <span>{formatDeliveryDays(partner.avg_delivery_time_days)} avg.</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-wrap items-center gap-3 mb-4">
+                    <div className={`flex items-center gap-2 px-3 py-1 rounded-full ${getReliabilityColor(partner.reliability_score)}`}>
+                      <BarChart3 size={16} />
+                      <span>{formatReliabilityScore(partner.reliability_score)} reliable</span>
+                    </div>
+                    <div className="text-gray-400">{partner.service_type}</div>
+                  </div>
+
+                  <div className="text-gray-400 mb-4">
+                    Contact: {partner.contact_person} ({partner.contact_email})
+                  </div>
+
+                  <div className="flex justify-end">
+                    <button
+                      onClick={() => handleNegotiate(partner.id)}
+                      className="flex items-center gap-2 px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-500 transition-colors"
+                    >
+                      <MessageSquare size={18} />
+                      <span>Negotiate</span>
+                    </button>
+                  </div>
+                </div>
+              ))
             ) : (
-              <div className="text-center p-8 bg-white rounded-lg border border-gray-200">
+              <div className="col-span-2 bg-gray-800/40 backdrop-blur-sm rounded-xl border border-gray-700/50 p-8 text-center text-gray-400">
                 No logistics partners found matching your criteria.
               </div>
             )}
